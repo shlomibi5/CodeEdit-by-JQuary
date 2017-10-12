@@ -31,7 +31,8 @@
             border-right: 1px solid gray;
         }
         .active {
-            background-color: lightskyblue;
+            background-color: #b5b5b5 !important;
+            color: white !important;
         }
         .colorbutton {
             background-color: gray;
@@ -62,6 +63,12 @@
             border: none;
             height: 600px;
             border: 1px solid grey;
+        }
+        #cssPanel {
+            color: greenyellow !important;
+        }
+        #javascriptPanel {
+         color: yellow !important;   
         }
 
         .hidden {
